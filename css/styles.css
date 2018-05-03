@@ -1,0 +1,130 @@
+body {
+  min-width: 420px;
+  overflow: hidden;
+}
+
+.customers-wrapper {
+  overflow: hidden;
+  border: 1px solid #7986b7;
+}
+.customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.customers td, .customers th {
+  padding: 8px;
+   width: 50%;
+}
+
+.customers tr:nth-child(even){background-color: #f2f2f2;}
+
+.customers tr:hover {background-color: #ddd;}
+
+.customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #337ab7;
+  color: white;
+}
+
+.pinfo{
+  color: grey;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.pinfo2{
+  color: grey;
+  text-align: center;
+  margin-top: 30px;
+  line-height: 1.8;
+}
+
+.pinfo3{
+  color: grey;
+  margin-top: 30px;
+  line-height: 1.8;
+}
+/* 
+.zgl{
+  font-size: 2em;
+  color:#337ab7;
+  font-family: 'Lato', sans-serif;
+	text-align:center;
+} */
+
+.justify-flex {
+  justify-content: space-around;
+  margin: 2em -16px !important;
+}
+
+.price-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #7986b7;
+  padding: 42px;
+  align-items: center;
+
+  width: 33.33%;
+  margin: 12px;
+
+  min-height: 260px;
+  justify-content: center;
+}
+
+.header-price-card {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.header-price-value {
+  font-size: 2.4em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #337ab7;
+}
+
+.header-price-title {
+  text-transform: uppercase;
+  color: gray;
+}
+
+.price-value {
+  font-size: 1.4em;
+  color: #fcac14;
+  text-align: center;
+  height: 64px;
+}
+
+.price-value > span {
+  display: block;
+}
+
+.price-info {
+text-align: center;
+  margin: -20px 0 10px;
+  font-size: 1.15em;
+  color: gray;
+}
+
+.slider {
+  min-height: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .justify-flex {
+    flex-direction: column;
+  }
+  .price-card {
+    width: 90%;
+  }
+  .intro {
+    font-size: 18px;
+  }
+  .monolits-heading h3 {
+    font-size: 1.4em !important;
+  }
+}
