@@ -581,7 +581,7 @@ html, body{
 	font-size: 2em;
     color:#337ab7;
     font-family: 'Lato', sans-serif;
-	
+	font-weight: bold;
 	text-align:center;
 }
 .monolits-heading h3 {
@@ -1529,9 +1529,10 @@ textarea:focus{
 
 .intro {
     color: #ffffff;
-    margin-left: 65px;
+    margin-left: 3vw;
     margin-bottom: 24px;
     font-size: 48px;
+    margin-top: 100px
 }
 
 

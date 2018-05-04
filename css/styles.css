@@ -111,7 +111,38 @@ text-align: center;
 
 .slider {
   min-height: 200px;
+  margin-top: 100px;
 }
+
+.menu{
+  position: absolute;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 2vw 3vw;
+  box-sizing: border-box;
+}
+
+.menu__item {
+  font-size: 1.2em;
+  color: #fff;
+  display: flex;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+
+.menu__item:not(:last-child) {
+  margin-right: 4vw;
+}
+
+.menu__links {
+  display: flex;
+  align-items: center;
+  margin-left: 9vw;
+}
+
+
 
 @media screen and (max-width: 768px) {
   .justify-flex {
@@ -125,5 +156,8 @@ text-align: center;
   }
   .monolits-heading h3 {
     font-size: 1.4em !important;
+  }
+  .menu__links {
+    display: none;
   }
 }
