@@ -54,12 +54,14 @@ body {
 
 .req{
   display: flex;
-  align-items: left;
+  align-items: flex-start;
   flex-direction: column;
-  max-width: 430px;
+  width: 100%;
+  max-width: 1150px;
   padding: 10px;
   margin: auto;
 }
+
 
 /* 
 .zgl{
