@@ -47,6 +47,20 @@ body {
   margin-top: 30px;
   line-height: 1.8;
 }
+
+.pinfo4{
+  color: black;
+}
+
+.req{
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  max-width: 430px;
+  padding: 10px;
+  margin: auto;
+}
+
 /* 
 .zgl{
   font-size: 2em;
@@ -80,7 +94,7 @@ body {
 }
 
 .header-price-value {
-  font-size: 2.4em;
+  font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
   color: #337ab7;
@@ -104,10 +118,11 @@ body {
 
 .price-info {
 text-align: center;
-  margin: -20px 0 10px;
+  margin: -7px 0 10px;
   font-size: 1.15em;
   color: gray;
 }
+
 
 .slider {
   min-height: 200px;
